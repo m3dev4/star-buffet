@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Traiteur</title>
+  <link rel="stylesheet" href="/traiteur.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Header section -->
+  <header>
+    <div class="logo">
+      <img src="/images/logo.png" alt="logo" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Restaurants</a></li>
+        <li><a href="#">Cours de Cuisine</a></li>
+        <li><a href="#" class="pathname">Traiteurs</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="auth">
+      <button>
+        <span>Connexion</span>
+      </button>
+      <button>
+        <span>Inscription</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- hero section -->
+  <section id="hero-traiteur">
+    <div class="hero-traiteur">
+      <div class="overlay"></div>
+      <div class="hero-traiteur-text">
+        <h1>Nos Traiteurs</h1>
+        <p>
+          Découvrez nos traiteurs professionnelspour les événements, mariages,
+          baptême et réception.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filtre section -->
+  <section id="filtre">
+    <div class="container">
+      <div class="head-row">
+        <h2>Filtres</h2>
+        <div class="rows-filter">
+          <div class="row">
+            <label>Spéciallté</label>
+            <select name="all" id="all">
+              <option value="all">Toutes les spécialités</option>
+            </select>
+          </div>
+          <div class="row">
+            <label>Statut</label>
+            <select name="traiteur" id="all-traiteur">
+              <option value="all-traiteur">Toutes les spécialités</option>
+            </select>
+          </div>
+          <div class="btn">
+            <button>
+              <i class="fa-solid fa-filter"></i>
+              <span>Filter</span>
+            </button>
+            <button>
+              <i class="fa-solid fa-arrows-rotate"></i>
+              <span>Renitialiser</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="chef-cards">
+        <div class="card-1">
+          <div class="img-badge">
+            <img src="/images/salade-de-tomates-colorees-au-pesto-d-oignons-et-basilic.jpg"
+              alt="salade-de-tomates-colorees-au-pesto-d-oignons-et-basilic" />
+            <div class="badge">
+              <span><i class="fa-solid fa-check"></i>Vérifier</span>
+            </div>
+          </div>
+
+          <div class="info-rating">
+            <article class="info">
+              <p class="date">1979 ans d'experience</p>
+              <h3 class="name">Nam ex similiq</h3>
+              <p class="spec">Specialités:</p>
+              <span class="bdg">Français</span>
+              <span class="bdg">Indienne</span>
+              <p class="num">
+                <i class="fa-solid fa-phone"></i> +1 (684) 758-7777
+              </p>
+            </article>
+
+            <article>
+              <span class="rating"><i class="fa-solid fa-star"></i> 0.0
+              </span>
+              <button class="see-more">
+                <span>Voir le Profil</span>
+              </button>
+            </article>
+          </div>
+        </div>
+        <div class="card-2">
+          <div class="img-badge">
+            <img src="/images/japn.jpg" alt="japn" />
+            <div class="badge">
+              <span><i class="fa-solid fa-check"></i>Vérifier</span>
+            </div>
+          </div>
+          <div class="info-rating">
+            <article class="info">
+              <p class="date">2016 ans d'experience</p>
+              <h3 class="name">Perspiciatis quia a</h3>
+              <p class="spec">Specialités:</p>
+              <span class="bdg">Japonaise</span>
+              <p class="num">
+                <i class="fa-solid fa-phone"></i> +1 (481) 263-6005
+              </p>
+            </article>
+
+            <article>
+              <span class="rating"><i class="fa-solid fa-star"></i> 0.0
+              </span>
+              <button class="see-more">
+                <span>Voir le Profile</span>
+              </button>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="cta">
+    <div class="cta-container">
+      <div class="overlay"></div>
+      <h2>Vous êtes traiteurs</h2>
+      <p>
+        Rejoignez notre réseau et développez votre activité évenementielle !
+      </p>
+      <button>
+        <span>Devenir traiteur</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <div class="container-footer">
+      <div class="rows-footer">
+        <div class="row-footer">
+          <h4>A propos</h4>
+          <ul class="li-row">
+            <li>
+              <a href="">Qui sommes-nous</a>
+              <a href="">Contact</a>
+              <a href="">Mentions légales</a>
+              <a href="">Politique de Confidentialité</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="row-footer">
+          <h4>Services</h4>
+          <ul class="li-row">
+            <li>
+              <a href="">Traiteurs</a>
+              <a href="">Restaurants</a>
+              <a href="">Cours de cuisine</a>
+            </li>
+          </ul>
+        </div>
+        <div class="row-footer">
+          <h4>Espace Pro</h4>
+          <ul class="li-row">
+            <li>
+              <a href="">Devenir partenaire</a>
+              <a href="">Connexion</a>
+              <a href="">FAQ Professionnels</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="row-footer">
+          <h4>Contact</h4>
+          <ul class="li-row">
+            <li>
+              <a href="">Star Buffet</a>
+              <a href="">Dakar, Sénégal</a>
+              <br />
+              <a href="">Tél:+221 77 000 00 00</a>
+              <a href="">Email:contact@startbuff.com</a>
+              <br />
+              <span>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="line"></div>
+        <span>&copy; 2025 Star Buffet. Tous droits réservés.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
